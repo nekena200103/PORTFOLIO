@@ -19,7 +19,7 @@
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
-  --bs-pink: #d122e3;
+  --bs-pink: #276b86;
   --bs-red: #dc3545;
   --bs-orange: #fd7e14;
   --bs-yellow: #ffc107;
@@ -30,7 +30,7 @@
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
   --bs-primary: #276b86;
-  --bs-secondary: #d122e3;
+  --bs-secondary: #276b86;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
@@ -214,7 +214,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: #7a1ec0;
+  color: #276b86;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -247,7 +247,7 @@ pre code {
 
 code {
   font-size: 0.875em;
-  color: #d122e3;
+  color: #276b86;
   word-wrap: break-word;
 }
 a > code {
@@ -2915,22 +2915,24 @@ textarea.form-control-lg {
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #8220cc;
-  border-color: #7a1ec0;
+  background-color: #276b86;
+  border-color: #276b86;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: #8220cc;
-  border-color: #7a1ec0;
-  box-shadow: 0 0 0 0.25rem rgba(168, 71, 242, 0.5);
+ 
+  background-color: #276b86;
+  border-color:  #276b86;
+  box-shadow: 0 0 0 0.25rem  #276b86;
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #7a1ec0;
-  border-color: #731db4;
+  background-color: #276b86;
+  border-color:  #276b86;
+  box-shadow: 0 0 0 0.25rem  #276b86;
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(168, 71, 242, 0.5);
+  box-shadow: 0 0 0 0.25rem  #276b86;
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
@@ -2940,32 +2942,32 @@ textarea.form-control-lg {
 
 .btn-secondary {
   color: #000;
-  background-color: #d122e3;
-  border-color: #d122e3;
+  background-color: #276b86;
+  border-color: #276b86;
 }
 .btn-secondary:hover {
   color: #000;
-  background-color: #d843e7;
-  border-color: #d638e6;
+  background-color: #276b86;
+  border-color:  #276b86;
 }
 .btn-check:focus + .btn-secondary, .btn-secondary:focus {
   color: #000;
-  background-color: #d843e7;
-  border-color: #d638e6;
-  box-shadow: 0 0 0 0.25rem rgba(178, 29, 193, 0.5);
+  background-color: #276b86;
+  border-color:  #276b86;
+  box-shadow: 0 0 0 0.25rem  #276b86;
 }
 .btn-check:checked + .btn-secondary, .btn-check:active + .btn-secondary, .btn-secondary:active, .btn-secondary.active, .show > .btn-secondary.dropdown-toggle {
   color: #000;
-  background-color: #da4ee9;
-  border-color: #d638e6;
+  background-color: #276b86;
+  border-color:  #276b86;
 }
 .btn-check:checked + .btn-secondary:focus, .btn-check:active + .btn-secondary:focus, .btn-secondary:active:focus, .btn-secondary.active:focus, .show > .btn-secondary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.25rem rgba(178, 29, 193, 0.5);
 }
 .btn-secondary:disabled, .btn-secondary.disabled {
   color: #000;
-  background-color: #d122e3;
-  border-color: #d122e3;
+  background-color: #276b86;
+  border-color: #276b86;
 }
 
 .btn-success {
@@ -3174,27 +3176,27 @@ textarea.form-control-lg {
 }
 
 .btn-outline-secondary {
-  color: #d122e3;
-  border-color: #d122e3;
+  color: #276b86;
+  border-color: #276b86;
 }
 .btn-outline-secondary:hover {
   color: #000;
-  background-color: #d122e3;
-  border-color: #d122e3;
+  background-color: #276b86;
+  border-color: #276b86;
 }
 .btn-check:focus + .btn-outline-secondary, .btn-outline-secondary:focus {
   box-shadow: 0 0 0 0.25rem rgba(209, 34, 227, 0.5);
 }
 .btn-check:checked + .btn-outline-secondary, .btn-check:active + .btn-outline-secondary, .btn-outline-secondary:active, .btn-outline-secondary.active, .btn-outline-secondary.dropdown-toggle.show {
   color: #000;
-  background-color: #d122e3;
-  border-color: #d122e3;
+  background-color: #276b86;
+  border-color: #276b86;
 }
 .btn-check:checked + .btn-outline-secondary:focus, .btn-check:active + .btn-outline-secondary:focus, .btn-outline-secondary:active:focus, .btn-outline-secondary.active:focus, .btn-outline-secondary.dropdown-toggle.show:focus {
   box-shadow: 0 0 0 0.25rem rgba(209, 34, 227, 0.5);
 }
 .btn-outline-secondary:disabled, .btn-outline-secondary.disabled {
-  color: #d122e3;
+  color: #6305b1;
   background-color: transparent;
 }
 
@@ -6039,7 +6041,7 @@ textarea.form-control-lg {
 }
 
 .link-secondary {
-  color: #d122e3;
+  color: #276b86;
 }
 .link-secondary:hover, .link-secondary:focus {
   color: #da4ee9;
@@ -6439,7 +6441,7 @@ textarea.form-control-lg {
 }
 
 .border-secondary {
-  border-color: #d122e3 !important;
+  border-color: #276b86 !important;
 }
 
 .border-success {
@@ -7268,7 +7270,7 @@ textarea.form-control-lg {
 }
 
 .text-secondary {
-  color: #d122e3 !important;
+  color: #276b86 !important;
 }
 
 .text-success {
@@ -7324,7 +7326,7 @@ textarea.form-control-lg {
 }
 
 .bg-secondary {
-  background-color: #d122e3 !important;
+  background-color: #276b86 !important;
 }
 
 .bg-success {
@@ -10905,7 +10907,7 @@ textarea.form-control-lg {
 }
 .intros .video-box a span i {
   font-size: 6rem;
-  color: #d122e3;
+  color: #276b86;
 }
 
 .border-animation {
@@ -11119,11 +11121,12 @@ textarea.form-control-lg {
 
 .footer {
   padding-top: 1rem;
-  background-color: #151414;
+  background-color: #fff;
 }
 
 .contact-box {
   position: relative;
+  background-color: #fff;
 }
 .contact-box__icon {
   width: 2rem;
@@ -11140,7 +11143,7 @@ textarea.form-control-lg {
   font-weight: 600;
 }
 .contact-box__info--title {
-  color: #fff;
+  color: #000;
   text-decoration: none;
   font-size: 1rem;
 }
@@ -11173,7 +11176,7 @@ textarea.form-control-lg {
   }
 }
 .footer-sm a:hover {
-  color: #276b86;
+  color: #fff;
 }
 
 .campany-list {
@@ -11190,7 +11193,7 @@ textarea.form-control-lg {
   text-decoration: none;
 }
 .campany-list li a:hover {
-  color: #276b86;
+  color: #000;
 }
 
 .footer-bottom {
@@ -11205,7 +11208,7 @@ textarea.form-control-lg {
   text-decoration: none;
 }
 .footer-bottom__copyright a:hover {
-  color: #276b86;
+  color: #000;
   text-decoration: underline;
 }
 
