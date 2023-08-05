@@ -1998,7 +1998,8 @@ progress {
 }
 
 .table-primary {
-  --bs-table-bg: #ebd4fc;
+  
+  --bs-table-bg: #276b86;
   --bs-table-striped-bg: #dfc9ef;
   --bs-table-striped-color: #000;
   --bs-table-active-bg: #d4bfe3;
@@ -10792,7 +10793,7 @@ textarea.form-control-lg {
 
 .display-2 {
   margin-bottom: 1rem;
-  text-transform: capitalize;
+  
   font-family: "Poppins", sans-serif;
 }
 .display-2--intro {
