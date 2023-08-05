@@ -3908,6 +3908,7 @@ textarea.form-control-lg {
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  width: 100vw;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -11217,8 +11218,8 @@ textarea.form-control-lg {
   position: fixed;
   width: 3rem;
   height: 3rem;
-  right: 1.875rem;
-  bottom: 1.875rem;
+  right: 20vw;
+  bottom: 20vh;
   z-index: 9999;
 }
 .back-to-top i {
