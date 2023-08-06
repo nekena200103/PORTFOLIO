@@ -278,7 +278,8 @@ svg {
 
 table {
   caption-side: bottom;
-  border-collapse: collapse;
+  border-collapse:collapse;
+  
 }
 
 caption {
@@ -11219,7 +11220,7 @@ textarea.form-control-lg {
   width: 3rem;
   height: 3rem;
   right: 20vw;
-  bottom: 20vh;
+  bottom: 10vh;
   z-index: 9999;
 }
 .back-to-top i {
